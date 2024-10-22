@@ -1,0 +1,15 @@
+[project]
+name = "cython-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cython>=3.0.11",
+    "mypy>=1.12.1",
+    "ruff>=0.7.0",
+    "setuptools>=75.2.0",
+]
+
+[tool.ruff.lint]
+unfixable = ["F401"]
